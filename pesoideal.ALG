@@ -13,13 +13,13 @@ mulher<- 62.1
 homen<- 72.7
 escreval("seu sexo F para feminino e M para masculino")
 leia(sexo)
-se sexo = "F" entao
+se (sexo = "F") ou (sexo = "f") entao
 escreval("sua altura")
 leia(h)
 ho<- (mulher * h) - 44.7
 escreval("seu peso ideal",ho)
 senao
-se sexo = "M" entao
+se (sexo = "M") ou (sexo = "m") entao
 escreval("sua altura")
 leia(h)
 ho<- (homen * h) - 58

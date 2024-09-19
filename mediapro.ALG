@@ -18,17 +18,20 @@ escreval("sua terceira nota ")
 leia(null3)
 media<-null1 + null2 + null3
 me<-media /3
+se ((null1 > 10) E (null2 > 10) E (null3 >10 )) =  falso entao
+escreval("numero errado")
+senao
 se me = 10 entao
 escreval("Aprovado com Distinção")
 senao
 se me < 7 entao
 escreval("reprovado")
 senao
-se me >= 7 entao
+se (me >= 7) E ( me <10) entao
 escreval("aprovado")
 fimse
 fimse
 fimse
-
+fimse
 
 Fimalgoritmo
